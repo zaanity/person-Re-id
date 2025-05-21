@@ -21,6 +21,7 @@ This project trains a CNN-based model with triplet loss on Market-1501 to learn 
    ```bash
    conda create -n preid python=3.8 -y
    conda activate preid
+   pip install -r requirements.txt
 
 ---
 
@@ -42,12 +43,12 @@ This project trains a CNN-based model with triplet loss on Market-1501 to learn 
 ## ⚙️ Usage
 
 After training completes, evaluation is run automatically to produce retrieval examples and metrics.
-
-    ```bash
+    ```
     python train.py \
     --train_dir /path/to/Market-1501/bounding_box_train \
     --query_dir /path/to/Market-1501/query \
     --gallery_dir /path/to/Market-1501/bounding_box_test
+
 ---
 
 ## 📊 Training & Evaluation Results
