@@ -42,6 +42,7 @@ This project trains a CNN-based model with triplet loss on Market-1501 to learn 
 ## ⚙️ Usage
 
 After training completes, evaluation is run automatically to produce retrieval examples and metrics.
+
     ```bash
     python train.py \
     --train_dir /path/to/Market-1501/bounding_box_train \
@@ -52,15 +53,19 @@ After training completes, evaluation is run automatically to produce retrieval e
 ## 📊 Training & Evaluation Results
 
 1. **Loss Curve**
+
 ![Loss Curve](images/output.png "Loss Curve")
 
 2. **Rank-1 Accuracy over Epochs**
+
 ![Rank-1 Accuracy Curve](images/output_1.png "Rank-1 Accuracy Curve")
 
 3. **mAP over Epochs**
+
 ![mAP Curve](images/output_2.png "mAP Curve")
 
 4. **CMC Curve (Top-5)**
+
 ![CMC Curve](images/output_3.png "CMC Curve")
 
 5. **Final Metrics**
