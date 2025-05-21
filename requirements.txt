@@ -1,0 +1,6 @@
+torch>=1.12
+torchvision
+numpy
+Pillow
+matplotlib
+reranking-python  # or however your re_ranking is packaged
