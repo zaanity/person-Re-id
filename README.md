@@ -40,10 +40,11 @@ This project trains a CNN-based model with triplet loss on Market-1501 to learn 
     EmbeddingLayer --> L2Normalize
     L2Normalize --> Embeddings
 
+---
+
 ## ⚙️ Usage
 
 After training completes, evaluation is run automatically to produce retrieval examples and metrics.
-
     ```bash
     python train.py \
     --train_dir /path/to/Market-1501/bounding_box_train \
