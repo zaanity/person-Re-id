@@ -48,7 +48,7 @@ After training completes, evaluation is run automatically to produce retrieval e
     --train_dir /path/to/Market-1501/bounding_box_train \
     --query_dir /path/to/Market-1501/query \
     --gallery_dir /path/to/Market-1501/bounding_box_test
-
+    
 ---
 
 ## 📊 Training & Evaluation Results
